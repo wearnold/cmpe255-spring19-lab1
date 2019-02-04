@@ -1,3 +1,25 @@
+'''
+Wayne Arnold's implementation of friends.py functions
+
+Expected output:
+
+Testing num_friends with users 0 and 4:
+Hero has 2 friends!
+Thor has 2 friends!
+
+Output of sort_by_num_friends:
+Dunn has 3 friends!
+Sue has 3 friends!
+Chi has 3 friends!
+Hicks has 3 friends!
+Kate has 3 friends!
+Hero has 2 friends!
+Thor has 2 friends!
+Clive has 2 friends!
+Devin has 2 friends!
+Klein has 1 friend!
+'''
+
 users =[
     { "id":0, "name": "Hero" },
     { "id":1, "name": "Dunn" },
