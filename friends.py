@@ -37,8 +37,6 @@ def num_friends(user):
         
     return friend_count
 
-print('%s has %d friends!' % (users[0]['name'], num_friends(users[0])))
-print('%s has %d friends!' % (users[4]['name'], num_friends(users[4])))
 
 def sort_by_num_friends():
     '''README.md
@@ -58,4 +56,8 @@ def sort_by_num_friends():
     
     return sorted_users
 
-sort_by_num_friends()
+if __name__ == "__main__":
+    print('%s has %d friends!' % (users[0]['name'], num_friends(users[0])))
+    print('%s has %d friends!' % (users[4]['name'], num_friends(users[4])))
+
+    sort_by_num_friends()
